@@ -124,20 +124,22 @@ body {
   margin: 0% 3%;
 }
 .about p {
-  padding: 2% 0%;
+  padding: 2% 20%;
   display: inline-block;
   width: 100%;
-  text-align: center;
+  text-align: justify;
   font-size: 1.5em;
   color: rgb(0, 0, 0);
   font-family: Sans-serif;
   vertical-align: text-bottom;
   margin-left: 3%;
   margin-right: 3%;
+  
 }
 .about p:first-child a:first-child {
   font-weight: bold;
   font-size: 2em;
+  text-align: center;
 }
 .nombre-cargo {
   width: 60%;
@@ -261,9 +263,10 @@ p {
     display: block;
     padding: 0%;
     margin: 0%;
-    background-image: url("../img/daniel.png");
+    background-image: url("../img/daniel1-1.png");
     background-position: center bottom;
     background-repeat: no-repeat;
+    background-size: 250%;
     /* padding-top: 15%; */
   }
   .nombre-cargo {
@@ -281,13 +284,14 @@ p {
   }
   .nombre-cargo h2 {
     text-align: center;
-    padding: 6% 3%;
+    padding: 4% 2%;
     margin: 0%;
     letter-spacing: normal;
     text-transform: uppercase;
     font-weight: bold;
     color: black;
-    font-size: 3.2em;
+    font-size: 3.8em;
+    font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
     animation: myAnim 2s ease 0s 1 normal forwards;
   }
   @keyframes myAnim {
