@@ -5,7 +5,9 @@
         <h1>Hi, I'm Daniel</h1>
         <h2 class="full_stack">Full Stack Developer</h2>
       </div>
-      <figure class="foto_presentacion"></figure>
+      <img class="my_photo" src="../assets/img/daniel1-2.png" alt="">
+      <figure class="foto_presentacion">
+      </figure>
     </section>
     <section class="content">
       <div class="about">
@@ -22,7 +24,7 @@
         </p>
       </div>
       <div class="technologies">
-        <h1>My Power Skills</h1>
+        <h1>My Skills</h1>
         <figure>
           <a href="https://www.python.org/" target="_blank">
             <img src="../assets/img/logo-python.png" alt="" />

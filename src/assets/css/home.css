@@ -10,7 +10,8 @@ body {
 
 .presentacion {
   overflow-x: hidden;
-  background-image: linear-gradient(rgba(87, 87, 85, 0), rgba(255, 230, 0, 0)), url("../img/wallpaper34.jpg");
+  background-image: linear-gradient(rgba(87, 87, 85, 0), rgba(255, 230, 0, 0)),
+    url("../img/wallpaper34.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,10 +42,9 @@ body {
   /* font-weight: bold; */
   font-family: Sans-serif;
   color: white;
-  font-size: 6.0em;
+  font-size: 6em;
 }
 .nombre-cargo h2 {
-
   text-align: center;
   color: white;
   margin: 0% 0%;
@@ -52,7 +52,7 @@ body {
   /* font-family: Georgia, serif; */
   font-family: Sans-serif;
   color: rgba(238, 46, 94, 0.884);
-  font-size: 2.0em;
+  font-size: 2em;
   letter-spacing: 1rem;
 }
 
@@ -69,18 +69,20 @@ body {
   background-position: bottom;
   background-size: 180%;
   background-repeat: no-repeat;
-  
-  
 }
+
 .foto-perfil {
   width: 100%;
   margin-top: 20%;
   bottom: 0%;
   right: 0%;
-  
+
   /* SOMBRAS */
   /* -webkit-box-shadow: 0px 0px 40px -3px hsl(308, 100%, 51%);
   box-shadow: 0px 0px 40px -3px hsl(123, 100%, 51%); */
+}
+.my_photo {
+  display: none;
 }
 
 .content {
@@ -88,7 +90,6 @@ body {
   margin: 0% 5%;
   background-color: rgb(24, 1, 9);
 }
-
 
 .about {
   overflow-x: hidden;
@@ -100,8 +101,7 @@ body {
   text-align: justify;
   font-size: 2.5em;
   color: rgba(255, 5, 122, 0.568);
- 
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   border-bottom: 4rem;
 }
 
@@ -111,7 +111,6 @@ body {
   color: rgb(255, 255, 255);
   font-family: Sans-serif;
   vertical-align: text-bottom;
-  
 }
 
 .technologies {
@@ -131,7 +130,7 @@ body {
 }
 .technologies figure img {
   margin: 0% 5%;
-  padding: 2.0% 0%;
+  padding: 2% 0%;
   width: 12%;
   animation-name: pop-images;
   animation-duration: 3s;
@@ -163,27 +162,17 @@ body {
   width: 50%;
 } */
 
-/* ---------------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: rgb(252, 252, 0);
-  }
-  
-  .presentacion {
-    height: 100vh;
+    .presentacion {
+    height: min-content;
     display: block;
-    padding: 0%;
-    margin: 0%;
-    background-image: url("../img/daniel1-1.png");
+    background-image: url("../img/wallpaper34.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: 250%;
-    /* padding-top: 15%; */
+    background-size: cover;
   }
   .nombre-cargo {
-    padding: 0%;
-    margin: 0%;
-    height: 50%;
+    height: 20%;
     background-color: hsla(0, 0%, 0%, 0);
     text-align: center;
     padding: 0% 0%;
@@ -197,13 +186,16 @@ body {
     text-align: center;
     padding: 4% 2%;
     margin: 0%;
-    letter-spacing: normal;
+    letter-spacing: 6px;
     text-transform: uppercase;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    font-size: 3.8em;
-    font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+    color: rgb(255, 255, 255);
+    font-size: 2.8em;
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal,
+      Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
     animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+  .full_stack {
+    height: min-content;
   }
   @keyframes myAnim {
     0% {
@@ -211,31 +203,31 @@ body {
       opacity: 1;
       transform: translateX(300px);
     }
-  
+
     24% {
       opacity: 1;
     }
-  
+
     40% {
       animation-timing-function: ease-in;
       transform: translateX(26px);
     }
-  
+
     65% {
       animation-timing-function: ease-in;
       transform: translateX(13px);
     }
-  
+
     82% {
       animation-timing-function: ease-in;
       transform: translateX(6.5px);
     }
-  
+
     93% {
       animation-timing-function: ease-in;
       transform: translateX(4px);
     }
-  
+
     25%,
     55%,
     75%,
@@ -244,7 +236,7 @@ body {
       animation-timing-function: ease-out;
       transform: translateX(0px);
     }
-  
+
     100% {
       animation-timing-function: ease-out;
       opacity: 1;
@@ -252,51 +244,51 @@ body {
     }
   }
   .foto_presentacion {
-    width: 100%;
-    height: 50%;
     display: none;
-    margin: 0%;
-    padding: 0%;
   }
-  
+  .my_photo {
+    text-align: center;
+display: block;
+left: 0;
+bottom: 0;
+width: 90%;
+height: auto;
+
+  }
+
   .btn-close {
     margin: 0%;
     padding: 0%;
   }
-  
- 
+
   /* ------------------------------------ */
-  /* primer div y primer h1 */
   .content div:first-child h1:first-child {
     margin: 0;
   }
   .content {
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    display: block;
+    overflow-x: hidden;
+    border-top: 6px solid rgba(201, 3, 95, 0.555);
   }
   .about {
-    width: 100%;
-    margin: 0%;
-    padding: 1%;
-    display: block;
+    overflow-x: hidden;
+    margin: 5%;
   }
-  .about  img:first-child {
-    display: none;
+
+  .about a {
+    padding: 0%;
+    text-align: left;
+    font-size: 1.6em;
+    color: rgba(255, 5, 122, 0.568);
+    font-family: "Open Sans", sans-serif;
   }
   .about p {
-    font-size: 1.0em;
-text-align: center;
-margin: 5% 5%;
-/* padding: 0% 10%; */
-padding-right: 0%;
-padding-left: 0%;
-display: block;
-width: 90%;
-text-align: left;
-
-}
+    font-size: 1em;
+    text-align: justify;
+    padding-right: 0%;
+    padding-left: 0%;
+    width: 100%;
+    text-align: left;
+  }
   .technologies {
     padding-top: 6%;
     color: rgb(5, 5, 5);
@@ -306,19 +298,18 @@ text-align: left;
   }
   .technologies h1:first-child {
     width: 100%;
-    display: block;
-  margin: 0%;
-    padding: 1% 4%;
+    margin: 0%;
+    padding: 2% 4%;
     text-align: center;
-    font-size: 4.5em;
+    font-size: 3.5em;
+    margin-bottom: 8%;
   }
   .technologies figure {
     width: 100%;
-    display: block;
     margin: 0%;
   }
   .technologies figure img {
-    margin: 5% 5%;
-    padding: 10% 0%;
+    margin: 3% 3%;
+    padding: 0% 0%;
   }
 }
